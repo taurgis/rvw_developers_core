@@ -19,6 +19,12 @@ Installation
 1. [Install Cartridge](../../README.md#installation)
 2. Add `rvw_dev_console` to Business Manager Storefront `Cartridges` Path
 3. Once installed, you can access the Dev Console on your sandbox at `/on/demandware.store/YOUR_SITE_ID/default/Console-Show` ( change `YOUR_SITE_ID` to your Site ID, e.g. `Sites-Site` ).
+4. To automatically show the menu item `Developer Tools` in the Administration / Site menu go to:
+   * `Administration`
+   * `Roles & Permissions`
+   *  Click on your role
+   * `Business Manager Modules`
+   *  Assign rights here
 
 **TROUBLESHOOTING:** Getting an error loading the console? You may need to temporarily switch Code Versions, then switch back to trigger the update in Business Manager.
 
