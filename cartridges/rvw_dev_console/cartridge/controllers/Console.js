@@ -26,7 +26,7 @@ function checkIfSecured() {
  * @return {Boolean} - If the session is secure.
  */
 function checkIfSecuredSession() {
-    return session.custom.allowed;
+    return session.custom.consoleAllowed;
 }
 
 /**
