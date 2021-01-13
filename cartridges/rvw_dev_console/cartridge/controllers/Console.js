@@ -33,7 +33,7 @@ function checkIfSecuredSession() {
  * Display development console template
  */
 function Show() {
-    if(!checkIfSecured()) {
+    if(!checkIfSecured() && !checkIfSecuredSession()) {
         return sendJSON({
             error: true,
             message: 'Dev Console is not securely called.'
